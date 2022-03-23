@@ -1,0 +1,84 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    margin: 4vh 0 1vh 10vh;
+    color: #5960bb;
+}
+
+.header button {
+    margin: 4vh 3vh 0 0;
+    font-size: 5vh;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header .cart-item {
+    position: absolute;
+    right: 3vh;
+    top: 3vh;
+    background: #283fb4;
+    border-radius: 50%;
+    width: 3vh;
+    color: aliceblue;
+    height: 3vh;
+    text-align: center;
+}
+
+.cart-cont {
+    border: solid;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #000000ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-cont .cart {
+    background: white;
+    width: 20vw;
+    padding: 3vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px #0000006b;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-cont .cart p {
+    font-weight: 700;
+}
+
+.cart-cont .cart button {
+    background: #2c4993;
+    color: aliceblue;
+    border-radius: 7px;
+    height: 5vh;
+}
+
+.cart-cont .cart .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh;
+}
+
+.cart-cont .cart .item img {
+    height: 5vh;
+    width: 4vw;
+}
+
+.cart-cont .cart .item .quant {
+    border: solid;
+    padding: 1vh;
+}
+
+.cart-cont .cart .btns {
+    display: flex;
+    justify-content: space-evenly;
+}
